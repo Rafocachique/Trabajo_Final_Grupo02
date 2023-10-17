@@ -174,3 +174,10 @@ Scenario 1: Iniciar sesión en la aplicación
 Given el usuario ingresa a la aplicación
 When el usuario inicia sesión
 Then la app tardará un máximo de 5 segundos en completar el inicio de sesión
+
+
+Título: OrganAlzer - Tu Asistente de Productividad
+Subtítulo: Mantén tus tareas organizadas y optimiza tu tiempo
+
+Imagina una vida sin estrés, con todas tus tareas y actividades en orden.
+Con OrganAlzer, puedes lograrlo.
