@@ -66,10 +66,6 @@
   
 .QuienS{
     display: flex;
-    align-items: center;
-    flex: 1;
-    flex-wrap: wrap; 
-    justify-content: center;
 }
 .QuienS img {
     max-width: 100%;
@@ -80,12 +76,15 @@
 }
 .feature {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
 }
 .feature h3 {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 18px;
-    margin-top: 0;
+    margin-top: 10px 40px;
     color: #007bff;
+    justify-content: center;
 }
 .feature img {
     max-width: 100%;
@@ -93,8 +92,11 @@
     margin-bottom: 10px;
 }
 .feature p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px 40px;
     font-size: 16px;
-    
+    justify-content: center;
 }
   
 /* Estilos para la sección de hero1 */
