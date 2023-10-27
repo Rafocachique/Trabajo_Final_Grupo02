@@ -17,8 +17,10 @@
 }
 
 
-/* Estilos para la sección Home */
+/* Estilos para la sección ¿quienes somos? */
 .Home {
+    flex: auto;
+    justify-content: center;
     background-color: #f2f2f2;
     padding: 40px; 
     text-align: center;
@@ -45,41 +47,56 @@
 
 .Home img {
     max-width: 100%;
-    border: 2px solid #007BFF;
+    border-radius: 5px;
     margin: 10px;
 }
 
 
 /* Estilos para la sección de hero */
+
 .hero {
-    background-color:  #F5C6A2;
-    padding: 40px;
+    background-color: #F5C6A2; 
     text-align: center;
+    padding: 50px 0;
 }
-
-.hero h2{
-    color: #333; 
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.hero img
-{
-    width: 200px; 
-    height: 300px;
-    border: 2px solid #007BFF; 
-    margin: 10px; 
-}
-
-.hero h3 {
-    color: #007BFF; 
+.hero h2 {
     font-size: 24px;
+    justify-content: center;
 }
-.hero p {
-    color: #666; 
+  
+.QuienS{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.QuienS img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 100%;
+    
+}
+.feature {
+    text-align: center;
+    margin: 10px;
+}
+.feature h3 {
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 0;
+    color: #007bff;
 }
+.feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 16px;
+    
+}
+  
 /* Estilos para la sección de hero1 */
 .hero1 {
     background-color:#f2f2f2;
