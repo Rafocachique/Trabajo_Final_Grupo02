@@ -42,9 +42,6 @@
     font-size: 18px;
     margin-top: 10px;
 }
-
-/* Estilos para las imágenes */
-
 .Home img {
     max-width: 100%;
     border-radius: 5px;
@@ -55,49 +52,57 @@
 /* Estilos para la sección de hero */
 
 .hero {
-    background-color: #F5C6A2; 
+    background-color: #F5C6A2;
     text-align: center;
     padding: 50px 0;
 }
+
 .hero h2 {
     font-size: 24px;
-    justify-content: center;
 }
-  
-.QuienS{
-    display: flex;
+
+.QuienS {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr) );
+    grid-gap: 2rem;
 }
+
 .QuienS img {
     max-width: 100%;
     height: auto;
-    padding-top: 30px;
-    padding-bottom: 100%;
-    
+    margin: 10px; 
 }
-.feature {
-    text-align: center;
-    margin: 20px;
+.col-1{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 2rem;
 }
-.feature h3 {
+.feature{
+    padding: 2rem 2rem;
     display: flex;
-    flex-wrap: wrap;
-    font-size: 18px;
-    margin-top: 10px 40px;
-    color: #007bff;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    box-shadow: 8px 8px 55px 5px rgb( 0 0 0/6%);
 }
+
 .feature img {
     max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
 }
+.feature h3 {
+    font-size: 18px;
+    color: #007bff;
+}
+
 .feature p {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10px 40px;
     font-size: 16px;
-    justify-content: center;
+    margin-top: 10px;
 }
+
   
 /* Estilos para la sección de hero1 */
 .hero1 {
